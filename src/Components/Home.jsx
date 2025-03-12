@@ -6,8 +6,6 @@ import gsap from "gsap";
 const Home = () => {
   const trackRef = useRef(null);
 
-  // Added
-
   useEffect(() => {
     if (trackRef.current) {
       gsap.to(trackRef.current, {
